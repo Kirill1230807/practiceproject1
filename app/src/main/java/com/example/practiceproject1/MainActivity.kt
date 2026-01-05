@@ -8,6 +8,7 @@ import com.example.practiceproject1.model.Product
 import com.example.practiceproject1.ui.theme.theme.Practiceproject1Theme
 import com.example.practiceproject1.view.AppNavigation
 import com.example.practiceproject1.view.MainScreen
+import com.example.practiceproject1.view.TestScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,6 +18,7 @@ class MainActivity : ComponentActivity() {
 
             Practiceproject1Theme {
                 AppNavigation()
+//                TestScreen()
             }
         }
     }
