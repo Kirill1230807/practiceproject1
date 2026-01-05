@@ -16,7 +16,7 @@ fun DetailButton(
     modifier: Modifier = Modifier
 ) {
     Button(onClick = { onClick() },
-        modifier = Modifier,
+        modifier = modifier,
         colors = ButtonDefaults.buttonColors(
             containerColor = Color.Black,
             contentColor = Color.White
